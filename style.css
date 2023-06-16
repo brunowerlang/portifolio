@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&display=swap');
+
+
+
+
+/* Estilos para centralizar o conteúdo */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 0;
+    font-family: Arial, sans-serif;
+    font-family: 'Press Start 2P', cursive;
+font-family: 'Russo One', sans-serif;
+  }
+  
+  .home {
+    text-align: center;
+    margin-right: 160px;
+  }
+
+  
+  .apresentacao h1 {
+    font-size: 25px;
+    position: relative;
+    top: 75px;
+    right: 57px;
+  }
+
+  .apresentacao h3 {
+    font-size: 120px;
+    position: relative;
+    bottom: 280px;
+    left: 108px;
+  }
+  
+  .apresentacao p {
+    position: relative;
+    bottom: 410px;
+    left: 190px;
+}
+
+
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .icons h2 {
+    position: relative;
+    left: 51px;
+    font-size: 90px;
+    bottom: 40px;
+  }
+  
+  .icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 35px;
+    margin: 0 20px;
+    position: relative;
+    left: 100px;
+  }
+  
+  
+  
+  
+  
