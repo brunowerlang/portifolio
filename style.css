@@ -2,20 +2,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&display=swap');
 
 
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 body {
  font-family: 'Russo one', sans-serif;
- font-
+ background-color: aqua;
+ 
 }
 
+/* HEADER */
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+.menu {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  
+}
+.menu button {
+margin: 0 10px;
+font-weight: 600;
+
+}
+.home {
+  font-style: none;
+  border: 0px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+/* APRESENTAÇÃO/LINKS */
+.container {
+  margin-top: 100px;
+  margin-bottom: 210px;
+}
 .apresentacao {
   display: flex;
   align-items: center;
@@ -24,16 +54,12 @@ body {
   position: relative;
   top: 17px;
   right: 108px;
-
 }
-
-
 .icons {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .descricao {
   display: flex;
   align-items: center;
@@ -43,7 +69,6 @@ body {
   bottom: 35px;
   left: 18px;
 }
-
 .texto {
   display: flex;
   align-items: center;
@@ -53,13 +78,11 @@ body {
   bottom: 40px;
   left: 68px
 }
-
 .icons h2 {
   font-size: 80px;
   position: relative;
   right: 15px;
 }
-
 .link {
   display: flex;
   align-items: center;
@@ -68,5 +91,36 @@ body {
   width: 40px;
   margin-left: 20px;
 }
+.icons img {
+  height: 38px;
+}
 
 
+/* SOBRE MIM */
+.sobre {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 210px;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+  
+}
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.lista li {
+  margin-bottom: 15px;
+}
+.image img {
+  height: 200px;
+  width: 200px;
+  border-radius: 45%;
+  border: 3px solid #fff;
+}
