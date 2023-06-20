@@ -10,7 +10,8 @@
 
 body {
  font-family: 'Russo one', sans-serif;
- background-color: aqua;
+ background-image: linear-gradient(240deg,rgb(45, 15, 65),rgb(187, 143, 143));
+
  
 }
 
@@ -21,7 +22,6 @@ body {
   justify-content: space-between; position: fixed;
   top: 0;
   width: 100%;
-  
 }
 .menu {
   display: flex;
@@ -32,19 +32,23 @@ body {
 .menu button {
 margin: 0 10px;
 font-weight: 600;
+background-color: transparent;
+color: #fff;
 
 }
 .home {
   font-style: none;
   border: 0px;
-  background-color: aqua;
   cursor: pointer;
+  height: 1px;
 }
 
 /* APRESENTAÇÃO/LINKS */
 .container {
-  margin-top: 100px;
-  margin-bottom: 210px;
+ padding: 180px;
+  
+  
+  color: #fff;
 }
 .apresentacao {
   display: flex;
@@ -54,6 +58,7 @@ font-weight: 600;
   position: relative;
   top: 17px;
   right: 108px;
+  
 }
 .icons {
   display: flex;
@@ -82,6 +87,7 @@ font-weight: 600;
   font-size: 80px;
   position: relative;
   right: 15px;
+  
 }
 .link {
   display: flex;
@@ -90,37 +96,10 @@ font-weight: 600;
   height: 40px;
   width: 40px;
   margin-left: 20px;
+  
 }
 .icons img {
   height: 38px;
 }
 
 
-/* SOBRE MIM */
-.sobre {
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 210px;
-}
-.image {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 200px;
-  
-}
-.titulo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 100px;
-}
-.lista li {
-  margin-bottom: 15px;
-}
-.image img {
-  height: 200px;
-  width: 200px;
-  border-radius: 45%;
-  border: 3px solid #fff;
-}
