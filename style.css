@@ -1,116 +1,23 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&display=swap');
 
 
+@import url(/css/navbar.css);
+@import url(/css/apresentacao.css);
+@import url(/css/projetos.css);
+
+
+
 * {
-  margin: 0;
+    margin: 0;
   padding: 0;
+  border: 0;
   box-sizing: border-box;
+  
 }
 
 body {
- font-family: 'Russo one', sans-serif;
- background-image: linear-gradient(240deg,rgb(45, 15, 65),rgb(0, 0, 0));
-
+  font-family: 'Russo one', sans-serif;
+  background-image: linear-gradient(240deg,rgb(45, 15, 65),rgb(0, 0, 0));
+  background-repeat: no-repeat;
  
-}
-
-/* HEADER */
-.head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; position: fixed;
-  top: 0;
-  width: 100%;
-}
-.menu {
-  display: flex;
-  align-items: center;
-  padding: 5px;
-  
-}
-.menu button {
-margin: 0 10px;
-font-weight: 600;
-background-color: transparent;
-color: #fff;
-
-}
-.home {
-  font-style: none;
-  border: 0px;
-  cursor: pointer;
-}
-.home svg {
-  height: 25px;
-  width: 25px;
-}
-
-/* APRESENTAÇÃO/LINKS */
-.container {
- padding: 180px;
-  
-  
-  color: #fff;
-}
-.apresentacao {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 10px;
-  position: relative;
-  top: 17px;
-  right: 108px;
-  
-}
-.icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.descricao {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 80px;
-  position: relative;
-  bottom: 35px;
-  left: 18px;
-}
-.texto {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
-  position: relative;
-  bottom: 40px;
-  left: 68px
-}
-.icons h2 {
-  font-size: 80px;
-  position: relative;
-  right: 15px;
-  
-}
-.link {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 40px;
-  width: 40px;
-  margin-left: 20px;
-  
-}
-.icons img {
-  height: 38px;
-}
-
-
-/* PROJETOS */
-.titulo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 100px;
-  color: #fff;
 }

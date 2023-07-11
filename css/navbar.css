@@ -1,0 +1,20 @@
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.head__a {
+    
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.head__a svg {
+    height: 30px;
+    width: 30px;
+  }

@@ -1,0 +1,47 @@
+.apresentacao {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    margin-top: 100px;
+   
+}
+
+.apresentacao__nome {
+    color: #fff;
+    font-size: 15px;
+    
+    
+}
+
+.apresentacao__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 120px;
+}
+
+.apresentacao__links h2 {
+    color: #fff;
+    font-size: 80px;
+    
+}
+
+.apresentacao__links svg {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.apresentacao__links img {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+
+.apresentacao__develop {
+    color: #fff;
+    font-size: 90px;
+}
+
