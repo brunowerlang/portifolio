@@ -1,0 +1,11 @@
+.projetos__titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.projetos__titulo h2 {
+    color:  #fff;
+    font-size: 60px;
+}

@@ -3,13 +3,14 @@
     align-items: center;
     justify-content: space-between;
     background-color: transparent;
+    
 }
 
 .head__a {
     
     color: #fff;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 5px 15px;
     cursor: pointer;
     font-size: 16px;
 }
